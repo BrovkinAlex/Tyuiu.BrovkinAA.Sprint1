@@ -35,7 +35,7 @@ namespace Tyuiu.BrovkinAA.Sprint1.Task3.V10
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                  *");
             Console.WriteLine("*******************************************************************************\n");
 
-            Console.WriteLine(Math.Round(x, 3) + " руб. - это " + Math.Round(x) + " руб. " + ds.NumberToMoney(Math.Round(x, 3)) + " коп.");
+            Console.WriteLine(ds.NumberToMoney(x));
             Console.ReadKey();
         }
     }
